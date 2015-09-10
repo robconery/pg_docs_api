@@ -1,6 +1,6 @@
 # A Simple Document API For PostgreSQL
 
-This project sprang from some explorations I did while trying to figure out whether PostgreSQL would be a viable document database. In short: *yes, it is* but the API could use a little love. And since this is PostgreSQL and I like writing functions, I put together a simple API for working with documents in `jsonb`.
+This project sprang from [some explorations I did while trying to figure out whether PostgreSQL would be a viable document database](http://rob.conery.io/category/postgres-document-api/). In short: *yes, it is* but the API could use a little love. And since this is PostgreSQL and I like writing functions, I put together a simple API for working with documents in `jsonb`.
 
 ## Requirements
 
