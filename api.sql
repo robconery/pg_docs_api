@@ -3,7 +3,7 @@ create extension if not exists plv8;
 drop function if exists save_document(varchar, jsonb);
 drop function if exists create_document_table(varchar);
 drop function if exists update_search(varchar, int);
-drop function find_document(varchar, int);
+drop function if exists find_document(varchar, int);
 drop function if exists find_document(varchar, varchar, varchar);
 drop function if exists filter_documents(varchar, varchar);
 drop function if exists search_documents(varchar, varchar);
