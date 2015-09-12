@@ -30,7 +30,7 @@ select * from save_document('monkies', '{"name" : "foofer"}');
 
 This will do a few things:
 
- - Create the table `foofer` with a primary key, `tsvector` search column and timestamps
+ - Create the table `monkies` with a primary key, `tsvector` search column and timestamps
  - Insert the JSON in the body field as `jsonb`
  - Create an index on the body field using GIN with `jsonb_path_ops`
  - Create an index on the `tsvector` field using GIN as well
